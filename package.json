@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "bookmarklet": "^3.0.0"
+  },
+  "name": "xmarklet_unmutepage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build:unMute": "node node_modules/bookmarklet/bin/cli.js unMute.js unMute.html --demo",
+    "build:mute": "node node_modules/bookmarklet/bin/cli.js mute.js mute.html --demo",
+    "build:all": "node node_modules/bookmarklet/bin/cli.js mute.js mute.html --demo & node node_modules/bookmarklet/bin/cli.js unMute.js unMute.html --demo"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
